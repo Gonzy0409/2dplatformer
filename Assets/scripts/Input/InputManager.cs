@@ -3,7 +3,11 @@ using System.Collections;
 
 public enum Buttons {
     Right,
-    Left
+    Left,
+    Up,
+    Down,
+    A,
+    B
 }
 
 public enum Condition {
@@ -50,3 +54,4 @@ public class InputManager : MonoBehaviour {
         }
     }
 }
+
